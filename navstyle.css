@@ -29,7 +29,7 @@
 
 
     /* NAVBAR */
-      .w3-top{position:fixed;width:100%;z-index:1;top:0; font-size: 1.25rem !important;}
+      .w3-top{position:fixed;width:100%;z-index:9;top:0; font-size: 1.25rem !important;}
       .w3-bar{width:100%;overflow:hidden;  color: whitesmoke; }.w3-center .w3-bar{display:inline-block;width:auto}
       .w3-bar .w3-bar-item{padding:1rem ;float:left;width:auto;border: none;;display:block;outline:0}
       .w3-bar .w3-dropdown-hover,.w3-bar {position:static;float:left}
@@ -105,7 +105,9 @@
     /* DONATE */
       .donateNote{text-align: center;font-weight: bold ;}.donate{width: 15% !important;filter: hue-rotate(105deg) brightness(70%) invert(100%) contrast(85%);}
       .donate:hover{filter: hue-rotate(302deg)!important; }
-      .paypal{max-width: 500px; margin: auto;padding-top: .5rem;}
+
+    /* EVENTS */
+     .paypal{max-width: 500px; margin: auto;padding-top: .5rem; background-attachment: fixed; z-index: 1 !important;  position: relative;}
 
     /* AD */
       #sponsorimg{ width: 9.6rem; height: 9.6rem;padding: 4% 3%;}
