@@ -103,8 +103,9 @@
       .statement{margin: auto;width: auto;padding: 0 5%;}
       
     /* DONATE */
-      .donateNote{text-align: center;font-weight: bold ;}.donate{width: 20% !important;filter: hue-rotate(105deg) brightness(70%) invert(100%) contrast(85%);}
+      .donateNote{text-align: center;font-weight: bold ;}.donate{width: 15% !important;filter: hue-rotate(105deg) brightness(70%) invert(100%) contrast(85%);}
       .donate:hover{filter: hue-rotate(302deg)!important; }
+      .paypal{max-width: 500px; margin: auto;padding-top: .5rem;}
 
     /* AD */
       #sponsorimg{ width: 9.6rem; height: 9.6rem;padding: 4% 3%;}
