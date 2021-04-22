@@ -148,7 +148,7 @@
 			  
 					  onApprove: function(data, actions) {
 						return actions.order.capture().then(function(details) {
-						  alert('Transaction completed by ' + details.payer.name.given_name + '!');
+						  alert(details.payer.name.given_name + 'You have successfully paid for the event!' + 'If you have not already filled out the form, please do so.' );
 						});
 					  },
 			  
