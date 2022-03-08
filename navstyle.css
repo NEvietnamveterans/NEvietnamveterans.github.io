@@ -10,7 +10,6 @@
   p {font: normal 120% sans-serif;letter-spacing: 0.2px;line-height: 160% !important;text-align: left;}
   a ,  a:visited {
     text-decoration: none;}
-.smtxt{font-size: .9rem !important;}
   .page{margin: 0 !important;display: block;position: relative;}
   .page::after {content: "";background: linear-gradient(0deg, rgba(235, 235, 235, 0.959), rgba(235, 235, 235, 0.959)), url(./Images/background2.jpg);opacity: 0.85;
     top: 0;left: 0;bottom: 0;right: 0;
@@ -365,3 +364,5 @@
       @page { margin: 0; }
       body { margin: 1.6cm; }
     }
+
+.smtxt{font-size: .9rem !important;}
