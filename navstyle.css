@@ -149,6 +149,7 @@
       .w3-container:after,.w3-container:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
       .w3-third{float: left;width:20%; margin: auto;}
       .w3-hide{display:none!important}.w3-show-block,.w3-show{display:block!important}.w3-show-inline-block{display:inline-block!important}
+      th{text-align: center;}
 
 .name{text-align: center !important;}
     /* Membership Page */
