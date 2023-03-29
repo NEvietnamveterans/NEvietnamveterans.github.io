@@ -199,6 +199,7 @@
 
     /* CHAPTER 279 */
         /* CONTACT */
+        p{text-align: center;}
         .address{font-size: 120%;}  .h4font{font: bold 200% Montserrat, Georgia, sans-serif;letter-spacing: .01rem;}
         .row{margin-left: 6.8rem!important;margin-right: auto !important;width: auto;}.column {width: auto; float:left; padding: .4rem 1rem;}
         .row .button{padding: 2.2% !important; width: 100%;}

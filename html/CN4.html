@@ -2,12 +2,12 @@
 <html lang="en">
 <title>Nebraska VVA</title>
 <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../navstyle.css">
 
-<script src="../script.js" ></script>
+<script src="../script.js"></script>
 <link rel="shortcut icon" href="../Images/Logo/headerLogo.png">
 
 <body>
@@ -15,194 +15,233 @@
 
 	<div class="page">
 
- 		<!-- Navbar -->
-		 <div class="w3-top">
-			<div class="header"><a href="../index.html"><img src="../Images/Logo/vva-279-council.png" id="header"></a></div>
-			
-				<div class="w3-bar w3-card">
-					<a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-					<a href="../index.html" class="home w3-bar-item w3-button w3-padding-large "> Home</a>
-					<div class="w3-right">
-						<div class="w3-dropdown-hover w3-hide-small">
-							 <button class="w3-padding-large w3-button" title="Chapter 279">Chapter 279 <i class="fa fa-caret-down"></i></button>     
-							  <div class="w3-dropdown-content   w3-card-4">
-								<a href="../html/Membershippage.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Membership</a>
-								<a href="../html/contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
-								<a href="../html/chapter-meetings.html" class="w3-bar-item w3-button">Chapter Minutes</a>
-                <a href="../html/ChapterNews.html" class="w3-bar-item w3-button active">Chapter News</a>
-							  </div>
-						</div>	
-						<div class="w3-dropdown-hover w3-hide-small">
-							<button class="w3-padding-large w3-button" title="Chapter 279">NE State Council <i class="fa fa-caret-down"></i></button>     
-							<div class="w3-dropdown-content   w3-card-4">
-								<a href="../html/NEstateCouncil.html" class="w3-bar-item w3-button">Contact</a>
-								  <a href="../html/CouncilMeetings.html" class="w3-bar-item w3-button">Council Minutes</a>
-								  <a href="../html/brochures.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Brochures</a>
-								  <a href="../html/neChapters.html" class="w3-bar-item w3-button">NE Chapters</a>
-							</div>
-						 </div>
-						<a href="../html/Eventspage.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Events</a>
-						<a href="../html/donations.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Donations</a>
-						<a href="../html/links.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small" id="notli">Links</a>
+		<!-- Navbar -->
+		<div class="w3-top">
+			<div class="header"><a href="../index.html"><img src="../Images/Logo/vva-279-council.png" id="header"></a>
+			</div>
+
+			<div class="w3-bar w3-card">
+				<a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)"
+					onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+				<a href="../index.html" class="home w3-bar-item w3-button w3-padding-large "> Home</a>
+				<div class="w3-right">
+					<div class="w3-dropdown-hover w3-hide-small">
+						<button class="w3-padding-large w3-button" title="Chapter 279">Chapter 279 <i
+								class="fa fa-caret-down"></i></button>
+						<div class="w3-dropdown-content   w3-card-4">
+							<a href="../html/Membershippage.html"
+								class="w3-bar-item w3-button w3-padding-large w3-hide-small">Membership</a>
+							<a href="../html/contact.html"
+								class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+							<a href="../html/chapter-meetings.html" class="w3-bar-item w3-button">Chapter Minutes</a>
+							<a href="../html/ChapterPictures.html" class="w3-bar-item w3-button active">Chapter Pictures</a>
 						</div>
 					</div>
-
-					
-					<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
- 					  					<div id="navDemo" class="w3-black w3-hide w3-hide-large w3-bar-block" >	
-					  <li>
-						<label for="btn-2" class="show w3-bar-item w3-button">Chapter 279<i class="fa fa-caret-down"></i></label>
-						<input type="checkbox" id="btn-2">
-						<ul>
-							<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/Membershippage.html" id="smallPage"> Membership</a></li>
-							<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/chapter-meetings.html" id="smallPage"> Chapter Minutes</a></li>
-							<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/contact.html" id="smallPage"> Contact</a></li>
-<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/ChapterNews.html" id="smallPage"> Chapter News</a></li>
-						</ul>
-					 </li> 
-					<li>
-						<label for="btn-3" class="show w3-bar-item w3-button">NE State Council <i class="fa fa-caret-down"></i></label>
-						<input type="checkbox" id="btn-3">
-						<ul>
-							<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/CouncilMeetings.html" id="smallPage"> State Council Meetings</a></li>
-							<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/brochures.html" id="smallPage"> Brochures</a></li>
-							<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/neChapters.html" id="smallPage"> NE Chapters</a></li>
-						</ul>
-					 </li> 
-					  <a href="../html/Eventspage.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Events </a>
-					  <a href="../html/donations.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Donations</a>
-					  <a href="../html/links.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Links</a>
+					<div class="w3-dropdown-hover w3-hide-small">
+						<button class="w3-padding-large w3-button" title="Chapter 279">NE State Council <i
+								class="fa fa-caret-down"></i></button>
+						<div class="w3-dropdown-content   w3-card-4">
+							<a href="../html/NEstateCouncil.html" class="w3-bar-item w3-button">Contact</a>
+							<a href="../html/CouncilMeetings.html" class="w3-bar-item w3-button">Council Minutes</a>
+							<a href="../html/brochures.html"
+								class="w3-bar-item w3-button w3-padding-large w3-hide-small">Brochures</a>
+							<a href="../html/neChapters.html" class="w3-bar-item w3-button">NE Chapters</a>
+						</div>
 					</div>
-				</div> <!-- Navbar end -->
-					
-					
-	<div class="w3-content">
-		
-		<div class="w3-container w3-center" style="max-width:960px"  >
-		<!-- start main page content -->
-		
-			<div class="mcontent">
-
-
-				<h1>Vietnam Veterans of America- Chapter News </h1>
-				<br>
-				<br>
-
-			<h3>Add Title</h3>
-				<p style="text-align: center;">
-	
-				</p>
-
-				<br/><br/>
-				<br>
-			
-				<!-- Delete < !-- and -- > to create page -->
-				<nav class="navigation">
-					<ul class="mainmenuCN">
-						<li><a>Current News</a>
-						  <ul class="submenuCN">
-							<li><a href="../html/CN2.html">Miller's Day Parade</a></li>
-							<!-- <li><a href="../html/CN3.html">Page2</a></li>
-							<li><a href="../html/CN4.html">Page3</a></li> -->
-						  </ul>
-						</li>
-						<!-- <li><a>Past News</a></li> -->
-					</ul>
-				</nav>
-
-			<!-- start sponsor01 -->
-
-				
-
-			<div id="sponsor01">
-
-			<h4>Vietnam Veterans of America Chapter 279 - Sponsors</h4>
-			
-			<h5>Please click the sponsor logo to visit our sponsor's website.</h5>
-			<div class="w3-row">
-				<div class="w3-third">
-
-					<a href="http://www.siddillon.com/" target="_blank"><img src="../Images/Ads/Sid Dillon.PNG" id="sponsorimg"></a>
-				</div>
-				<div class="w3-third">
-
-					<a href="http://www.reichmuthfuneralhomes.com/" target="_blank"><img src="../Images/Ads/Reichmuth.PNG"id="sponsorimg"></a> 
-				</div>
-				<div class="w3-third">
-
-					<a href="https://klostermaninsuranceagencyelkhorn.com/" target="_blank"><img src="../Images/Ads/Klosterman.png" id="sponsorimg"></a>
-				</div>
-				<div class="w3-third">
-
-					<a href="http://www.dillonharley.com/" target="_blank"><img src="../Images/Ads/Dillon Brothers.PNG"id="sponsorimg"></a>
-				</div>
-				<div class="w3-third">
-
-					<a href="http://www.wellsfargoadvisors.com/" target="_blank"><img src="../Images/Ads/Wells Fargo.PNG"id="sponsorimg"></a>
-				</div>
-
-				<div class="w3-third">
-
-					<a href="http://www.stoddenpt.com/" target="_blank"><img src="../Images/Ads/Stodden.PNG"id="sponsorimg"></a> 
-				</div>
-				<div class="w3-third">
-
-					<a href="http://www.pacificsprings.com/" target="_blank"><img src="../Images/Ads/Pacific Springs.PNG"id="sponsorimg"></a>
-				</div>
-				<div class="w3-third">
-
-					<a href="http://www.victoryveteranshousing.com/" target="_blank"><img src="../Images/Ads/Victory.PNG"id="sponsorimg"></a> 
-				</div>
-				<div class="w3-third">
-
-					<a href="https://www.brookestonemeadows.com/" target="_blank"><img src="../Images/Ads/Brookstone.png"id="sponsorimg"></a>
-				</div>
-				<div class="w3-third">
-					<a href="https://www.bathfitter.com/us-en/" target="_blank"><img src="../Images/Ads/bath fitter.png"id="sponsorimg"></a>
+					<a href="../html/Eventspage.html"
+						class="w3-bar-item w3-button w3-padding-large w3-hide-small">Events</a>
+					<a href="../html/donations.html"
+						class="w3-bar-item w3-button w3-padding-large w3-hide-small">Donations</a>
+					<a href="../html/links.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+						id="notli">Links</a>
 				</div>
 			</div>
-			</div> <!-- end sponsor01 -->
-			
-			</div><!-- end mcontent -->
 
-			<a href="http://www.akaydesign.com/" target="_blank"><div class="ashAd"> <h5> Web Design  by Ashley Kay</h5></div></a>
-	<!-- End Page Content -->
-	</div>
-</div>    <!-- end -->
 
-</div> <!-- Page content end -->
-<img class="logohide" src="../Images/Logo/headerLogo.png" alt="hidden logo">
-</div> <!--page end-->
- <script src="https://www.paypal.com/sdk/js?client-id=ARkvJhqCMLlAoYsQPmZ4HsEZgeGmX3AfAoTDE9T2xQOpRtGuhbb2pVp-qBrEmWm0DQ0-JcKu2VDdelq1&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-  <script>
-  function initPayPalButton() {
-	paypal.Buttons({
-	  style: {
-		shape: 'rect',
-		color: 'black',
-		layout: 'vertical',
-		label: 'pay',
-		
-	  },
+			<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+			<div id="navDemo" class="w3-black w3-hide w3-hide-large w3-bar-block">
+				<li>
+					<label for="btn-2" class="show w3-bar-item w3-button">Chapter 279<i
+							class="fa fa-caret-down"></i></label>
+					<input type="checkbox" id="btn-2">
+					<ul>
+						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/Membershippage.html"
+								id="smallPage"> Membership</a></li>
+						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/chapter-meetings.html"
+								id="smallPage"> Chapter Minutes</a></li>
+						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/contact.html" id="smallPage">
+								Contact</a></li>
+						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/ChapterPictures.html"
+								id="smallPage"> Chapter Pictures</a></li>
+					</ul>
+				</li>
+				<li>
+					<label for="btn-3" class="show w3-bar-item w3-button">NE State Council <i
+							class="fa fa-caret-down"></i></label>
+					<input type="checkbox" id="btn-3">
+					<ul>
+						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/CouncilMeetings.html"
+								id="smallPage"> State Council Meetings</a></li>
+						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/brochures.html" id="smallPage">
+								Brochures</a></li>
+						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/neChapters.html"
+								id="smallPage"> NE Chapters</a></li>
+					</ul>
+				</li>
+				<a href="../html/Eventspage.html" class="w3-bar-item w3-button w3-padding-large"
+					onclick="myFunction()">Events </a>
+				<a href="../html/donations.html" class="w3-bar-item w3-button w3-padding-large"
+					onclick="myFunction()">Donations</a>
+				<a href="../html/links.html" class="w3-bar-item w3-button w3-padding-large"
+					onclick="myFunction()">Links</a>
+			</div>
+		</div> <!-- Navbar end -->
 
-	  createOrder: function(data, actions) {
-		return actions.order.create({
-		  purchase_units: [{"description":"Monday, September 27, 2021\n4 person scramble - \n includes entry fee, cart, prizes, lunch and social.","amount":{"currency_code":"USD","value":380}}]
-		});
-	  },
 
-	  onApprove: function(data, actions) {
-		return actions.order.capture().then(function(details) {
-		  alert(details.payer.name.given_name + 'You have successfully paid for the event!' + 'If you have not already filled out the form, please do so.' );
-		});
-	  },
+		<div class="w3-content">
 
-	  onError: function(err) {
-		console.log(err);
-	  }
-	}).render('#paypal-button-container');
-  }
-  initPayPalButton();
-</script>
+			<div class="w3-container w3-center" style="max-width:960px">
+				<!-- start main page content -->
+
+				<div class="mcontent">
+
+
+					<h1>Vietnam Veterans of America- Chapter News </h1>
+					<br>
+					<br>
+
+					<h3>Add Title</h3>
+					<p style="text-align: center;">
+
+					</p>
+
+					<br /><br />
+					<br>
+
+					<!-- Delete < !-- and -- > to create page -->
+					<nav class="navigation">
+						<ul class="mainmenuCN">
+							<li><a>Current News</a>
+								<ul class="submenuCN">
+									<li><a href="../html/CN2.html">Miller's Day Parade</a></li>
+									<!-- <li><a href="../html/CN3.html">Page2</a></li>
+							<li><a href="../html/CN4.html">Page3</a></li> -->
+								</ul>
+							</li>
+							<!-- <li><a>Past News</a></li> -->
+						</ul>
+					</nav>
+
+					<!-- start sponsor01 -->
+
+
+
+					<div id="sponsor01">
+
+						<h4>Vietnam Veterans of America Chapter 279 - Sponsors</h4>
+
+						<h5>Please click the sponsor logo to visit our sponsor's website.</h5>
+						<div class="w3-row">
+							<div class="w3-third">
+
+								<a href="http://www.siddillon.com/" target="_blank"><img
+										src="../Images/Ads/Sid Dillon.PNG" id="sponsorimg"></a>
+							</div>
+							<div class="w3-third">
+
+								<a href="http://www.reichmuthfuneralhomes.com/" target="_blank"><img
+										src="../Images/Ads/Reichmuth.PNG" id="sponsorimg"></a>
+							</div>
+							<div class="w3-third">
+
+								<a href="https://klostermaninsuranceagencyelkhorn.com/" target="_blank"><img
+										src="../Images/Ads/Klosterman.png" id="sponsorimg"></a>
+							</div>
+							<div class="w3-third">
+
+								<a href="http://www.dillonharley.com/" target="_blank"><img
+										src="../Images/Ads/Dillon Brothers.PNG" id="sponsorimg"></a>
+							</div>
+							<div class="w3-third">
+
+								<a href="http://www.wellsfargoadvisors.com/" target="_blank"><img
+										src="../Images/Ads/Wells Fargo.PNG" id="sponsorimg"></a>
+							</div>
+
+							<div class="w3-third">
+
+								<a href="http://www.stoddenpt.com/" target="_blank"><img src="../Images/Ads/Stodden.PNG"
+										id="sponsorimg"></a>
+							</div>
+							<div class="w3-third">
+
+								<a href="http://www.pacificsprings.com/" target="_blank"><img
+										src="../Images/Ads/Pacific Springs.PNG" id="sponsorimg"></a>
+							</div>
+							<div class="w3-third">
+
+								<a href="http://www.victoryveteranshousing.com/" target="_blank"><img
+										src="../Images/Ads/Victory.PNG" id="sponsorimg"></a>
+							</div>
+							<div class="w3-third">
+
+								<a href="https://www.brookestonemeadows.com/" target="_blank"><img
+										src="../Images/Ads/Brookstone.png" id="sponsorimg"></a>
+							</div>
+							<div class="w3-third">
+								<a href="https://www.bathfitter.com/us-en/" target="_blank"><img
+										src="../Images/Ads/bath fitter.png" id="sponsorimg"></a>
+							</div>
+						</div>
+					</div> <!-- end sponsor01 -->
+
+				</div><!-- end mcontent -->
+
+				<a href="http://www.akaydesign.com/" target="_blank">
+					<div class="ashAd">
+						<h5> Web Design by Ashley Kay</h5>
+					</div>
+				</a>
+				<!-- End Page Content -->
+			</div>
+		</div> <!-- end -->
+
+	</div> <!-- Page content end -->
+	<img class="logohide" src="../Images/Logo/headerLogo.png" alt="hidden logo">
+	</div> <!--page end-->
+	<script
+		src="https://www.paypal.com/sdk/js?client-id=ARkvJhqCMLlAoYsQPmZ4HsEZgeGmX3AfAoTDE9T2xQOpRtGuhbb2pVp-qBrEmWm0DQ0-JcKu2VDdelq1&enable-funding=venmo&currency=USD"
+		data-sdk-integration-source="button-factory"></script>
+	<script>
+		function initPayPalButton() {
+			paypal.Buttons({
+				style: {
+					shape: 'rect',
+					color: 'black',
+					layout: 'vertical',
+					label: 'pay',
+
+				},
+
+				createOrder: function (data, actions) {
+					return actions.order.create({
+						purchase_units: [{ "description": "Monday, September 27, 2021\n4 person scramble - \n includes entry fee, cart, prizes, lunch and social.", "amount": { "currency_code": "USD", "value": 380 } }]
+					});
+				},
+
+				onApprove: function (data, actions) {
+					return actions.order.capture().then(function (details) {
+						alert(details.payer.name.given_name + 'You have successfully paid for the event!' + 'If you have not already filled out the form, please do so.');
+					});
+				},
+
+				onError: function (err) {
+					console.log(err);
+				}
+			}).render('#paypal-button-container');
+		}
+		initPayPalButton();
+	</script>
 </body>
+
 </html>
