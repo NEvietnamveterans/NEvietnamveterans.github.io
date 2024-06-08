@@ -16,6 +16,7 @@ jobs:
         if: github.event.action != 'closed'
       - uses: rossjrw/pr-preview-action@v1.4.3
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           source-dir: .
           preview-branch: main
           umbrella-dir: pr-preview
