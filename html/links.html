@@ -1,317 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Nebraska VVA</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../navstyle.css" />
 
-<head>
-	<title>Nebraska VVA</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="../navstyle.css">
+    <script src="../script.js"></script>
+    <link rel="shortcut icon" href="../Images/Logo/headerLogo.png" />
+  </head>
 
-	<script src="../script.js"></script>
-	<link rel="shortcut icon" href="../Images/Logo/headerLogo.png">
-</head>
+  <body>
+    <!-- Page content -->
 
-<body>
-	<!-- Page content -->
+    <!-- Page content -->
 
-	<!-- Page content -->
+    <div class="page">
+      <!-- Navbar -->
+      <div class="w3-top">
+        <div class="header">
+          <a href="../index.html"
+            ><img src="../Images/Logo/vva-279-council.png" id="header"
+          /></a>
+        </div>
 
-	<div class="page">
+        <div class="w3-bar w3-card">
+          <a
+            class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right"
+            href="javascript:void(0)"
+            onclick="myFunction()"
+            title="Toggle Navigation Menu"
+            ><i class="fa fa-bars"></i
+          ></a>
+          <a
+            href="../index.html"
+            class="home w3-bar-item w3-button w3-padding-large"
+          >
+            Home</a
+          >
+          <div class="w3-right">
+            <div class="w3-dropdown-hover w3-hide-small">
+              <button class="w3-padding-large w3-button" title="Chapter 279">
+                Chapter 279 <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="w3-dropdown-content w3-card-4">
+                <a
+                  href="../html/Membershippage.html"
+                  class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+                  >Membership</a
+                >
+                <a
+                  href="../html/contact.html"
+                  class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+                  >Contact</a
+                >
+                <a
+                  href="../html/chapter-meetings.html"
+                  class="w3-bar-item w3-button"
+                  >Chapter Minutes</a
+                >
+                <a
+                  href="../html/ChapterPictures.html"
+                  class="w3-bar-item w3-button active"
+                  >Chapter Pictures</a
+                >
+              </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+              <button class="w3-padding-large w3-button" title="Chapter 279">
+                NE State Council <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="w3-dropdown-content w3-card-4">
+                <a
+                  href="../html/NEstateCouncil.html"
+                  class="w3-bar-item w3-button"
+                  >Contact</a
+                >
+                <a
+                  href="../html/CouncilMeetings.html"
+                  class="w3-bar-item w3-button"
+                  >Council Minutes</a
+                >
+                <a
+                  href="../html/brochures.html"
+                  class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+                  >Brochures</a
+                >
+                <a href="../html/neChapters.html" class="w3-bar-item w3-button"
+                  >NE Chapters</a
+                >
+              </div>
+            </div>
+            <a
+              href="../html/Eventspage.html"
+              class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+              >Events</a
+            >
+            <a
+              href="../html/donations.html"
+              class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+              >Donations</a
+            >
+            <a
+              href="../html/links.html"
+              class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+              id="notli"
+              >Links</a
+            >
+          </div>
+        </div>
 
+        <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+        <div id="navDemo" class="w3-black w3-hide w3-hide-large w3-bar-block">
+          <li>
+            <label for="btn-2" class="show w3-bar-item w3-button"
+              >Chapter 279<i class="fa fa-caret-down"></i
+            ></label>
+            <input type="checkbox" id="btn-2" />
+            <ul>
+              <li class="w3-hide-large w3-bar-item w3-button">
+                <a href="../html/Membershippage.html" id="smallPage">
+                  Membership</a
+                >
+              </li>
+              <li class="w3-hide-large w3-bar-item w3-button">
+                <a href="../html/chapter-meetings.html" id="smallPage">
+                  Chapter Minutes</a
+                >
+              </li>
+              <li class="w3-hide-large w3-bar-item w3-button">
+                <a href="../html/contact.html" id="smallPage"> Contact</a>
+              </li>
+              <li class="w3-hide-large w3-bar-item w3-button">
+                <a href="../html/ChapterPictures.html" id="smallPage">
+                  Chapter Pictures</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <label for="btn-3" class="show w3-bar-item w3-button"
+              >NE State Council <i class="fa fa-caret-down"></i
+            ></label>
+            <input type="checkbox" id="btn-3" />
+            <ul>
+              <li class="w3-hide-large w3-bar-item w3-button">
+                <a href="../html/CouncilMeetings.html" id="smallPage">
+                  State Council Meetings</a
+                >
+              </li>
+              <li class="w3-hide-large w3-bar-item w3-button">
+                <a href="../html/brochures.html" id="smallPage"> Brochures</a>
+              </li>
+              <li class="w3-hide-large w3-bar-item w3-button">
+                <a href="../html/neChapters.html" id="smallPage">
+                  NE Chapters</a
+                >
+              </li>
+            </ul>
+          </li>
+          <a
+            href="../html/Eventspage.html"
+            class="w3-bar-item w3-button w3-padding-large"
+            onclick="myFunction()"
+            >Events
+          </a>
+          <a
+            href="../html/donations.html"
+            class="w3-bar-item w3-button w3-padding-large"
+            onclick="myFunction()"
+            >Donations</a
+          >
+          <a
+            href="../html/links.html"
+            class="w3-bar-item w3-button w3-padding-large"
+            onclick="myFunction()"
+            >Links</a
+          >
+        </div>
+      </div>
+      <!-- Navbar end -->
 
-		<!-- Navbar -->
-		<div class="w3-top">
-			<div class="header"><a href="../index.html"><img src="../Images/Logo/vva-279-council.png" id="header"></a>
-			</div>
+      <div class="w3-content">
+        <div class="w3-container w3-center" style="max-width: 960px">
+          <!-- start main page content -->
+          <br />
+          <br />
 
-			<div class="w3-bar w3-card">
-				<a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)"
-					onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-				<a href="../index.html" class="home w3-bar-item w3-button w3-padding-large "> Home</a>
-				<div class="w3-right">
-					<div class="w3-dropdown-hover w3-hide-small">
-						<button class="w3-padding-large w3-button" title="Chapter 279">Chapter 279 <i
-								class="fa fa-caret-down"></i></button>
-						<div class="w3-dropdown-content   w3-card-4">
-							<a href="../html/Membershippage.html"
-								class="w3-bar-item w3-button w3-padding-large w3-hide-small">Membership</a>
-							<a href="../html/contact.html"
-								class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
-							<a href="../html/chapter-meetings.html" class="w3-bar-item w3-button">Chapter Minutes</a>
-							<a href="../html/ChapterPictures.html" class="w3-bar-item w3-button active">Chapter Pictures</a>
-						</div>
-					</div>
-					<div class="w3-dropdown-hover w3-hide-small">
-						<button class="w3-padding-large w3-button" title="Chapter 279">NE State Council <i
-								class="fa fa-caret-down"></i></button>
-						<div class="w3-dropdown-content   w3-card-4">
-							<a href="../html/NEstateCouncil.html" class="w3-bar-item w3-button">Contact</a>
-							<a href="../html/CouncilMeetings.html" class="w3-bar-item w3-button">Council Minutes</a>
-							<a href="../html/brochures.html"
-								class="w3-bar-item w3-button w3-padding-large w3-hide-small">Brochures</a>
-							<a href="../html/neChapters.html" class="w3-bar-item w3-button">NE Chapters</a>
-						</div>
-					</div>
-					<a href="../html/Eventspage.html"
-						class="w3-bar-item w3-button w3-padding-large w3-hide-small">Events</a>
-					<a href="../html/donations.html"
-						class="w3-bar-item w3-button w3-padding-large w3-hide-small">Donations</a>
-					<a href="../html/links.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small"
-						id="notli">Links</a>
-				</div>
-			</div>
+          <div class="mcontent">
+            <a
+              href="https://www.veteranscrisisline.net/get-help/military-crisis-line"
+              target="_blank"
+              ><img src="../Images/Ads/crisis01.jpg" class="crisis"
+            /></a>
+            <h4>Vietnam Veterans of America Chapter 279 - Website Links</h4>
+            <p style="text-align: center">
+              The following website links may prove to be helpful for veterans
+              and their families.
+            </p>
+            <br />
 
+            <div class="row2">
+              <h4>Veteran Help And Information Organizations</h4>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="https://www.legion.org/" target="_blank"
+                      >American Legion</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-			<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-			<div id="navDemo" class="w3-black w3-hide w3-hide-large w3-bar-block">
-				<li>
-					<label for="btn-2" class="show w3-bar-item w3-button">Chapter 279<i
-							class="fa fa-caret-down"></i></label>
-					<input type="checkbox" id="btn-2">
-					<ul>
-						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/Membershippage.html"
-								id="smallPage"> Membership</a></li>
-						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/chapter-meetings.html"
-								id="smallPage"> Chapter Minutes</a></li>
-						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/contact.html" id="smallPage">
-								Contact</a></li>
-						<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/ChapterPictures.html"
-								id="smallPage"> Chapter Pictures</a></li>
-					</ul>
-				</li>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="http://www.redcross.org/" target="_blank"
+                      >American Red Cross</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-				<label for="btn-3" class="show w3-bar-item w3-button">NE State Council <i
-						class="fa fa-caret-down"></i></label>
-				<input type="checkbox" id="btn-3">
-				<ul>
-					<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/CouncilMeetings.html"
-							id="smallPage"> State Council Meetings</a></li>
-					<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/brochures.html" id="smallPage">
-							Brochures</a></li>
-					<li class="w3-hide-large w3-bar-item w3-button"><a href="../html/neChapters.html" id="smallPage"> NE
-							Chapters</a></li>
-				</ul>
-				</li>
-				<a href="../html/Eventspage.html" class="w3-bar-item w3-button w3-padding-large"
-					onclick="myFunction()">Events </a>
-				<a href="../html/donations.html" class="w3-bar-item w3-button w3-padding-large"
-					onclick="myFunction()">Donations</a>
-				<a href="../html/links.html" class="w3-bar-item w3-button w3-padding-large"
-					onclick="myFunction()">Links</a>
-			</div>
-		</div> <!-- Navbar end -->
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="https://amvets.org/" target="_blank"
+                      >American Veterans</a
+                    >
+                  </div>
+                </div>
+              </div>
 
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="http://www.avva.org/" target="_blank"
+                      >Associates Vietnam Veterans of America</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-		<div class="w3-content">
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="http://www.dav.org/" target="_blank"
+                      >Disabled American Veterans</a
+                    >
+                  </div>
+                </div>
+              </div>
 
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a
+                      href="http://www.drugrehab.com/addiction/veterans/"
+                      target="_blank"
+                      >Drug Rehab for Veterans</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-			<div class="w3-container  w3-center" style="max-width:960px">
-				<!-- start main page content -->
-				<br>
-				<br>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="https://www.mclnational.org/" target="_blank"
+                      >Marine Corps League</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-				<div class="mcontent">
-					<a href="https://www.veteranscrisisline.net/get-help/military-crisis-line" target="_blank"><img
-							src="../Images/Ads/crisis01.jpg" class="crisis"></a>
-					<h4> Vietnam Veterans of America Chapter 279 - Website Links
-					</h4>
-					<p style="text-align:center;"> The following website links may prove to be helpful for veterans and
-						their families.</p>
-					</br>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="https://www.purpleheart.org/" target="_blank"
+                      >Military Order of Purple Heart</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-					<div class="row2">
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="http://www.archives.gov/veterans/" target="_blank"
+                      >Military Records (Copies)</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<h4>Veteran Help And Information Organizations</h4>
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="https://www.legion.org/" target="_blank">American Legion</a>
-								</div>
-							</div>
-						</div>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="https://veterans.nebraska.gov/" target="_blank"
+                      >Nebraska Department of Veteran Affairs</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="http://www.redcross.org/" target="_blank">American Red Cross</a>
-								</div>
-							</div>
-						</div>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="https://nvvmf.org/" target="_blank"
+                      >Nebraska Vietnam Veterans Memorial</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="https://amvets.org/" target="_blank">American Veterans</a>
-								</div>
-							</div>
-						</div>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a
+                      href="https://www.cem.va.gov/cems/nchp/omaha.asp"
+                      target="_blank"
+                      >Omaha National Cemetery</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="http://www.avva.org/" target="_blank">Associates Vietnam Veterans of
-										America</a>
-								</div>
-							</div>
-						</div>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="https://pva.org/" target="_blank"
+                      >Paralyzed Veterans of America</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="http://www.dav.org/" target="_blank">Disabled American Veterans</a>
-								</div>
-							</div>
-						</div>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="http://www.va.gov/" target="_blank"
+                      >U.S. Department of Veteran Affairs</a
+                    >
+                  </div>
+                </div>
+              </div>
 
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="https://www.nebraska.va.gov/" target="_blank"
+                      >VA Hospital</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="http://www.drugrehab.com/addiction/veterans/" target="_blank">Drug Rehab
-										for Veterans</a>
-								</div>
-							</div>
-						</div>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="http://www.vfw.org/" target="_blank"
+                      >Veterans of Foreign Wars</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="https://www.mclnational.org/" target="_blank">Marine Corps League</a>
-								</div>
-							</div>
-						</div>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="http://veteranshealth.net/" target="_blank"
+                      >Veterans Health Council</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="https://www.purpleheart.org/" target="_blank">Military Order of Purple
-										Heart</a>
-								</div>
-							</div>
-						</div>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="http://www.vva.org/" target="_blank"
+                      >Vietnam Veterans of America</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="http://www.archives.gov/veterans/" target="_blank">Military Records
-										(Copies)</a>
-								</div>
-							</div>
-						</div>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a href="http://www.virtualwall.org/" target="_blank"
+                      >Vietnam Virtual Wall</a
+                    >
+                  </div>
+                </div>
+              </div>
 
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="https://veterans.nebraska.gov/" target="_blank">Nebraska Department of
-										Veteran Affairs</a>
-								</div>
-							</div>
-						</div>
+              <div class="column2">
+                <div class="card2">
+                  <div class="container2">
+                    <a
+                      href="https://www.mesotheliomaveterans.org/"
+                      target="_blank"
+                      >Mesothelioma Veterans Center</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end mcontent -->
 
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="https://nvvmf.org/" target="_blank">Nebraska Vietnam Veterans Memorial</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="https://www.cem.va.gov/cems/nchp/omaha.asp" target="_blank">Omaha National
-										Cemetery</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="https://pva.org/" target="_blank">Paralyzed Veterans of America</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="http://www.va.gov/" target="_blank">U.S. Department of Veteran Affairs</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="https://www.nebraska.va.gov/" target="_blank">VA Hospital</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="http://www.vfw.org/" target="_blank">Veterans of Foreign Wars</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="http://veteranshealth.net/" target="_blank">Veterans Health Council</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="http://www.vva.org/" target="_blank">Vietnam Veterans of America</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="http://www.virtualwall.org/" target="_blank">Vietnam Virtual Wall</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="column2">
-							<div class="card2">
-								<div class="container2">
-									<a href="https://www.mesotheliomaveterans.org/" target="_blank">Mesothelioma
-										Veterans Center</a>
-								</div>
-							</div>
-						</div>
-
-
-
-					</div>
-
-
-
-
-
-
-				</div><!-- end mcontent -->
-
-
-				<!-- End Page Content -->
-			</div>
-
-
-
-
-		</div> <!-- Page content end -->
-	</div> <!--page end-->
-</body>
-
+          <!-- End Page Content -->
+        </div>
+      </div>
+      <!-- Page content end -->
+    </div>
+    <!--page end-->
+  </body>
 </html>
