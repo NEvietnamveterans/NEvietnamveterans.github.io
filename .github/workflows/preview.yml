@@ -1,6 +1,5 @@
 # .github/workflows/preview.yml
 name: Deploy PR previews
-concurrency: preview-${{ github.ref }}
 on:
   pull_request:
     types:
@@ -13,8 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Deploy PR Preview
         if: github.event.action != 'closed'
-      - uses: rossjrw/pr-preview-action@v1
+      - uses: rossjrw/pr-preview-action@v1.4.3
         with:
           source-dir: .
           preview-branch: main
