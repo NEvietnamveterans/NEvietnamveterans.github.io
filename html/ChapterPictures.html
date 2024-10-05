@@ -511,8 +511,9 @@
             </div>
             <script>
               let index = 1;
-              document.getElementById("index").innerHTML = index++;
-              document.getElementById("numPics").innerHTML = "23";
+              let slides = document.getElementsByClassName("mySlides");
+              document.getElementById("index").innerHTML = index += 1;
+              document.getElementById("numPics").innerHTML = slides.length;
             </script>
 
             <a class="prev" onclick="plusSlides(-1)">❮</a>
