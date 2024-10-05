@@ -511,8 +511,12 @@
             </div>
             <script>
               let index = 1;
+              function increment() {
+                index++;
+                return index;
+              }
+              document.getElementById("index").innerHTML = increment();
               let slides = document.getElementsByClassName("mySlides");
-              document.getElementById("index").innerHTML = index += 1;
               document.getElementById("numPics").innerHTML = slides.length;
             </script>
 
