@@ -513,11 +513,6 @@
             <a class="next" onclick="plusSlides(1)">❯</a>
 
             <br />
-
-            <div style="text-align: center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-            </div>
             <script>
               const length = document.getElementsByClassName("numPic").length;
               for (let i = 0; i <= length; i++) {
@@ -540,7 +535,6 @@
               function showSlides(n) {
                 let i;
                 let slides = document.getElementsByClassName("mySlides");
-                let dots = document.getElementsByClassName("dot");
                 if (n > slides.length) {
                   slideIndex = 1;
                 }
@@ -550,11 +544,8 @@
                 for (i = 0; i < slides.length; i++) {
                   slides[i].style.display = "none";
                 }
-                for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" active", "");
-                }
+
                 slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
               }
             </script>
             <!-- start sponsor01 -->
