@@ -509,8 +509,8 @@
               </div>
             </div>
 
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
+            <a class="prev" onclick="plusSlides(-1)"></a>
+            <a class="next" onclick="plusSlides(1)"></a>
 
             <br />
 
@@ -520,9 +520,9 @@
             </div>
             <script>
               const length = document.getElementsByClassName("numPic").length;
-              for (let i = 1; i <= length; i++) {
+              for (let i = 0; i <= length; i++) {
                 document.getElementsByClassName("numPic")[i].innerHTML =
-                  i + " " + "/" + " " + length;
+                  i + 1 + " " + "/" + " " + length;
               }
             </script>
             <script>
