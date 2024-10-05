@@ -7,8 +7,6 @@ function myFunction() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
-var counter = 0;
-var numPics = 23;
 $("w3-dropdown-hover").on("click", function (e) {
   e.preventDefault();
   $("w3-dropdown-content").toggleClass("active");

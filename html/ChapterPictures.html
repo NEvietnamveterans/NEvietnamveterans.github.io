@@ -297,10 +297,16 @@
               }
             </style>
 
+            <script>
+              document.getElementById("numPics").innerHTML = "23";
+            </script>
+
             <div class="slideshow-container">
               <!-- Full-width images with number and caption text -->
               <div class="mySlides fade">
-                <div class="numbertext">{{counter++}} / {{numPics}}</div>
+                <div class="numbertext">
+                  <span>0 / </span><span id="numPics"></span>
+                </div>
                 <img
                   class="pic"
                   src="/Images/Picture_Page/20240606_NVVM_Opening_Ceremony-13755.jpg"
