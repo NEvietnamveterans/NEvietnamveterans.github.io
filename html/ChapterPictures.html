@@ -510,6 +510,8 @@
               </div>
             </div>
             <script>
+              let index = 1;
+              document.getElementById("index").innerHTML = index++;
               document.getElementById("numPics").innerHTML = "23";
             </script>
 
@@ -554,7 +556,6 @@
                 slides[slideIndex - 1].style.display = "block";
                 dots[slideIndex - 1].className += " active";
               }
-              document.getElementById("index").innerHTML = slideIndex;
             </script>
             <!-- start sponsor01 -->
             <br />
