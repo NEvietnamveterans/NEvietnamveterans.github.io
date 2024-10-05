@@ -296,16 +296,11 @@
                 }
               }
             </style>
-
-            <script>
-              document.getElementById("numPics").innerHTML = "23";
-            </script>
-
             <div class="slideshow-container">
               <!-- Full-width images with number and caption text -->
               <div class="mySlides fade">
                 <div class="numbertext">
-                  <span>0 / </span><span id="numPics"></span>
+                  <span>1 / </span><span id="numPics"></span>
                 </div>
                 <img
                   class="pic"
@@ -316,38 +311,48 @@
 
               <div class="mySlides fade">
                 <div class="numbertext">
-                  <span>1 / </span><span id="numPics"></span>
+                  <span id="index"></span><span id="numPics"></span>
                 </div>
                 <img class="pic" src="/Images/Picture_Page/unnamed.jpg" />
                 <div class="text"></div>
               </div>
 
               <div class="mySlides fade">
-                <div class="numbertext">3 / 23</div>
+                <div class="numbertext">
+                  <span>3 / </span><span id="numPics"></span>
+                </div>
                 <img class="pic" src="/Images/Picture_Page/IMG_3518.JPEG" />
                 <div class="text"></div>
               </div>
 
               <div class="mySlides fade">
-                <div class="numbertext">4 / 23</div>
+                <div class="numbertext">
+                  <span>4 / </span><span id="numPics"></span>
+                </div>
                 <img class="pic" src="/Images/Picture_Page/IMG_3436.JPEG" />
                 <div class="text"></div>
               </div>
 
               <div class="mySlides fade">
-                <div class="numbertext">5 / 23</div>
+                <div class="numbertext">
+                  <span>5 / </span><span id="numPics"></span>
+                </div>
                 <img class="pic" src="/Images/Picture_Page/IMG_3439.JPEG" />
                 <div class="text"></div>
               </div>
 
               <div class="mySlides fade">
-                <div class="numbertext">6 / 23</div>
+                <div class="numbertext">
+                  <span>6 / </span><span id="numPics"></span>
+                </div>
                 <img class="pic" src="/Images/Picture_Page/IMG_3513.JPEG" />
                 <div class="text"></div>
               </div>
 
               <div class="mySlides fade">
-                <div class="numbertext">7 / 23</div>
+                <div class="numbertext">
+                  <span>7 / </span><span id="numPics"></span>
+                </div>
                 <img class="pic" src="/Images/Picture_Page/IMG_2249.JPEG" />
                 <div class="text"></div>
               </div>
@@ -481,7 +486,16 @@
               <span class="dot" onclick="currentSlide(1)"></span>
               <span class="dot" onclick="currentSlide(2)"></span>
             </div>
-
+            <script>
+              let numIndex = 0;
+              function increment() {
+                numIndex++;
+                document.getElementById("index").innerHTML = numIndex;
+              }
+            </script>
+            <script>
+              document.getElementById("numPics").innerHTML = "23";
+            </script>
             <script>
               let slideIndex = 1;
               showSlides(slideIndex);
