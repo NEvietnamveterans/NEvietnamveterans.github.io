@@ -844,9 +844,9 @@ p {
   cursor: pointer;
   font-style: italic;
 }
-.board p {
+/* .board p {
   margin: auto 25% !important;
-}
+} */
 
 /* NE COUNCIL */
 .nemcontent {
