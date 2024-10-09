@@ -578,16 +578,6 @@ button:-moz-focusring,
   padding: 4% 3%;
 }
 
-/* ASHLEY KAY */
-.ashAd {
-  font: bold 120% Georgia;
-  color: black;
-}
-.ashAd a,
-.ashAd a:visited {
-  color: black;
-}
-
 /*table*/
 .w3-container:after,
 .w3-container:before,
