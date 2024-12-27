@@ -803,14 +803,20 @@ p {
   letter-spacing: 0.01rem;
 }
 .row {
-  margin-left: 6.8rem !important;
+  margin-left: 3.5rem !important;
   margin-right: auto !important;
-  width: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 .column {
-  width: auto;
-  float: left;
-  padding: 0.4rem 1rem;
+  display: flex;
+  padding: 0.4rem 1rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.column-center {
+  display: flex;
+  margin-left: 12rem;
+  padding: 0.4rem 1rem 0.5rem;
 }
 .row .button {
   padding: 2.2% !important;
@@ -825,7 +831,6 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: rgb(211, 211, 211, 0.85);
   width: 22rem;
-  height: 19rem;
 }
 /* Some left and right padding inside the container */
 .container {
