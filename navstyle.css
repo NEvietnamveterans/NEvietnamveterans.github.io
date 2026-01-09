@@ -408,7 +408,7 @@ button:-moz-focusring,
 /* CONTENT */
 .w3-content {
   max-width: 100%;
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
 }
 .w3-content,
 .w3-content2 {
@@ -417,7 +417,7 @@ button:-moz-focusring,
 .w3-container {
   padding: 0.1rem;
   margin: auto !important;
-  padding-top: 2.5%;
+  /* padding-top: 2.5%; */
 }
 .mcontent {
   margin: auto;
@@ -858,7 +858,7 @@ p {
   margin: auto;
   width: auto;
   padding: 0%;
-  padding-top: 8% !important;
+  /* padding-top: 8% !important; */
 }
 .nerow {
   margin-left: 5rem !important;
@@ -1147,7 +1147,7 @@ p {
 
 @media (min-width: 900px) {
   .w3-content {
-    padding-top: 10rem !important;
+    /* padding-top: 10rem !important; */
   }
 }
 
@@ -1306,7 +1306,7 @@ p {
     padding: 1% !important;
   }
   .w3-content {
-    padding: 10rem 0.5rem !important;
+    /* padding: 10rem 0.5rem !important; */
   }
 }
 
@@ -1380,7 +1380,7 @@ p {
     font-size: 100% !important;
   }
   .w3-content .w3-content2 {
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
   }
   .w3-content2 {
     margin: auto;
