@@ -146,8 +146,13 @@
             <input type="checkbox" id="btn-3" />
             <ul>
               <li class="w3-hide-large w3-bar-item w3-button">
+                <a href="../html/NEstateCouncil.html" id="smallPage">
+                  Contact</a
+                >
+              </li>
+              <li class="w3-hide-large w3-bar-item w3-button">
                 <a href="../html/CouncilMeetings.html" id="smallPage">
-                  State Council Meetings</a
+                  Council Minutes</a
                 >
               </li>
               <li class="w3-hide-large w3-bar-item w3-button">
@@ -212,8 +217,28 @@
 
               .pic {
                 vertical-align: middle;
-                height: 600px;
+                height: 50vh;
+                max-width: 100%;
               }
+
+              /* On smaller screens, decrease text size */
+              @media only screen and (max-width: 400px) {
+                .prev,
+                .next,
+                .text {
+                  font-size: 11px;
+                }
+                .pic {
+                  height: 35vh;
+                }
+              }
+
+              /* On smaller screens,
+              decrease pic size @media only screen and (max-width: 800px) {
+                .pic {
+                  height: 32vh;
+                }
+              } */
 
               /* Slideshow container */
               .slideshow-container {
@@ -298,7 +323,7 @@
             </style>
             <div class="slideshow-container">
               <!-- Full-width images with number and caption text -->
-               <div class="mySlides fade">
+              <div class="mySlides fade">
                 <span class="numHeader"></span>
                 <div class="numbertext">
                   <span class="numPic"></span>
@@ -589,7 +614,7 @@
               for (let i = 0; i <= length; i++) {
                 document.getElementsByClassName("numPic")[i].innerHTML =
                   i + 1 + " " + "/" + " " + length;
-                  // Set headers for 2025 and Previous Years
+                // Set headers for 2025 and Previous Years
                 if (i < 5) {
                   document.getElementsByClassName("numHeader")[i].innerHTML =
                     "<h3>2025</h3>";

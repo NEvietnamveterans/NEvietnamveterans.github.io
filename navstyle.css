@@ -408,7 +408,7 @@ button:-moz-focusring,
 /* CONTENT */
 .w3-content {
   max-width: 100%;
-  /* padding-top: 4rem; */
+  padding-top: 4rem;
 }
 .w3-content,
 .w3-content2 {
@@ -417,7 +417,7 @@ button:-moz-focusring,
 .w3-container {
   padding: 0.1rem;
   margin: auto !important;
-  /* padding-top: 2.5%; */
+  padding-top: 2.5%;
 }
 .mcontent {
   margin: auto;
@@ -446,7 +446,7 @@ button:-moz-focusring,
   font-size: 120%;
   letter-spacing: 0.2px;
   line-height: 175% !important;
-  text-align: left;
+  /* text-align: left; */
 }
 .w3-content2 h3 {
   font: bold 180% Georgia, sans-serif;
@@ -460,7 +460,7 @@ button:-moz-focusring,
   width: 70%;
   margin: auto;
   margin-bottom: -5% !important;
-  margin-top: 5% !important;
+  /* margin-top: 5% !important; */
   display: block;
 }
 .statement {
@@ -803,9 +803,10 @@ p {
   letter-spacing: 0.01rem;
 }
 .row {
-  margin-left: 3.5rem !important;
-  margin-right: auto !important;
+  /* margin-left: 3.5rem !important;
+  margin-right: auto !important; */
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .column {
@@ -815,7 +816,7 @@ p {
 }
 .column-center {
   display: flex;
-  margin-left: 12rem;
+  /* margin-left: 12rem; */
   padding: 0.4rem 1rem 0.5rem;
 }
 .row .button {
@@ -858,7 +859,7 @@ p {
   margin: auto;
   width: auto;
   padding: 0%;
-  /* padding-top: 8% !important; */
+  padding-top: 8% !important;
 }
 .nerow {
   margin-left: 5rem !important;
@@ -1147,7 +1148,7 @@ p {
 
 @media (min-width: 900px) {
   .w3-content {
-    /* padding-top: 10rem !important; */
+    padding-top: 10rem !important;
   }
 }
 
@@ -1161,6 +1162,8 @@ p {
   }
   .row {
     margin-left: auto !important;
+  }
+  .w3-content2 {
   }
 }
 
@@ -1177,7 +1180,7 @@ p {
     text-align: center !important;
   }
   .column-center {
-    margin-left: 24% !important;
+    /* margin-left: 24% !important; */
     /* width: 50% !important; */
   }
 }
@@ -1306,7 +1309,7 @@ p {
     padding: 1% !important;
   }
   .w3-content {
-    /* padding: 10rem 0.5rem !important; */
+    padding: 10rem 0.5rem !important;
   }
 }
 
@@ -1380,7 +1383,7 @@ p {
     font-size: 100% !important;
   }
   .w3-content .w3-content2 {
-    /* padding-top: 6rem; */
+    padding-top: 6rem;
   }
   .w3-content2 {
     margin: auto;
@@ -1388,7 +1391,7 @@ p {
   }
   .w3-content {
     margin: auto;
-    margin-top: 9.5rem;
+    margin-top: 4.5rem;
   }
   .w3-dropdown-hover.w3-dropdown-content,
   .w3-dropdown-content {
@@ -1479,7 +1482,7 @@ p {
   }
   .column-center {
     margin-left: 0% !important;
-    display: flex;
+    /* display: flex; */
     width: 100% !important;
     /* width: 50% !important; */
   }
@@ -1516,18 +1519,18 @@ p {
   .w3-content2 {
     margin-left: auto !important;
     margin-right: auto !important;
-    margin-top: 6rem !important;
+    margin-top: 7.5rem !important;
   }
   .mcontent2 {
     padding-top: 5% !;
   }
   .w3-container {
-    padding-left: 10% !important;
+    /* padding-left: 10% !important; */
   }
   .patchWords {
     font: bold 4.5vw verdana !important;
     text-align: CENTER !important;
-    line-height: 2rem !important;
+    line-height: 1.5rem !important;
     color: black;
     padding-top: 0 !important;
   }
@@ -1557,8 +1560,8 @@ p {
     float: left;
   }
   .rowPatch {
-    margin-left: -3.5rem !important;
-    margin-right: -1rem !important;
+    /* margin-left: -3.5rem !important;
+    margin-right: -1rem !important; */
   }
 }
 
