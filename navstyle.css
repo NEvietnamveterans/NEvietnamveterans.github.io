@@ -731,7 +731,7 @@ th {
 /* LINKS */
 .crisis {
   width: 100%;
-  height: 6rem;
+  /* height: 6rem; */
   padding: 0 0.8rem 0;
   display: block;
   margin: auto;
