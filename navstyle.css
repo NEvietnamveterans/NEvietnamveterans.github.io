@@ -1016,7 +1016,7 @@ p {
     width: 90% !important;
   }
   .nemcontent {
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
   }
   .statement {
     margin: auto;
@@ -1336,7 +1336,8 @@ p {
   .sponsrow {
     width: auto !important;
     margin-left: 5% !important;
-    margin-right: -1% !important;
+    margin-right: 5% !important;
+    display: flex;
   }
   .w3-third {
     width: auto;
@@ -1353,8 +1354,9 @@ p {
   .w3-row,
   .sponsrow {
     width: 90% !important;
-    margin-left: -1% !important;
-    margin-right: -1% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    display: flex;
   }
   .w3-third {
     width: 50%;
@@ -1456,15 +1458,20 @@ p {
 
 /* Display the columns below each other instead of side by side on small screens- CONTACT 279 */
 @media screen and (max-width: 730px) {
+  .sponsrow {
+    display: flex;
+  }
   .column {
     width: 100% !important;
     display: flex;
+    /* flex-direction: column; */
   }
   .row {
     display: flex;
     margin-left: auto !important;
     margin-right: auto !important;
     float: none !important;
+    /* flex-direction: row; */
   }
 }
 /* Display the columns below each other instead of side by side on small screens LINKS */
