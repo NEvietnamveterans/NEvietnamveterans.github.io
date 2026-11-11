@@ -201,10 +201,7 @@ a:visited {
   float: left !important;
   margin-left: 14.5vw !important;
 }
-.home1 {
-  float: left !important;
-  margin-left: 12.5vw !important;
-}
+
 .w3-right {
   float: right !important;
   margin-right: 8.5%;
@@ -1011,10 +1008,6 @@ p {
 
 /* NORMAL */
 @media (max-width: 1440px) {
-  .home1 {
-    float: left !important;
-    margin-left: 4vw !important;
-  }
   .home {
     float: left !important;
     margin-left: 10.5vw !important;
@@ -1059,10 +1052,6 @@ p {
     float: left !important;
     margin-left: 3vw !important;
   }
-  .home1 {
-    float: left !important;
-    margin-left: 4vw !important;
-  }
 }
 
 @media (max-width: 1069px) and (min-width: 815px) {
@@ -1076,10 +1065,7 @@ p {
     float: left !important;
     margin-left: 0.1vw !important;
   }
-  .home1 {
-    float: left !important;
-    margin-left: 1vw !important;
-  }
+
   .w3-padding-large {
     padding: 1.6vw 1.5vw !important;
   }
@@ -1236,8 +1222,7 @@ p {
 }
 
 @media (max-width: 815px) and (min-width: 620px) {
-  .home,
-  .home1 {
+  .home {
     float: left !important;
     margin-left: -0.1vw !important;
   }
@@ -1456,10 +1441,7 @@ p {
     float: left !important;
     margin-left: auto !important;
   }
-  .home1 {
-    float: left !important;
-    margin-left: auto !important;
-  }
+
   input[type="checkbox"] {
     display: none;
   }
