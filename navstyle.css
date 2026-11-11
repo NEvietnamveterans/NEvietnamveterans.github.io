@@ -1186,6 +1186,7 @@ p {
 @media (max-width: 1026px) and (min-width: 620px) {
   #header3,
   #header2,
+  #header-state-council,
   #header {
     width: 70% !important;
     height: auto !important;
@@ -1450,6 +1451,7 @@ p {
   }
   #header3,
   #header2,
+  #header-state-council,
   #header {
     width: 100% !important;
     height: auto !important;
@@ -1606,6 +1608,7 @@ p {
 
   #header,
   #header2,
+  #header-state-council,
   #header3 {
     display: block;
   }
