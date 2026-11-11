@@ -126,6 +126,12 @@ a:visited {
   /* width: 42%; */
   display: flex;
 }
+#header-state-council {
+  display: block;
+  margin: auto;
+  width: 25%;
+  display: flex;
+}
 .header3 {
   background-color: rgb(17, 37, 82);
   position: static;
