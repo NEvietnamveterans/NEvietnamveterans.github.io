@@ -328,6 +328,146 @@
                 <div class="numbertext">
                   <span class="numPic"></span>
                 </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3876.JPEG"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3878.JPEG"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3880.JPEG"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3883.JPEG"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3886.JPEG"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3889.JPEG"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3765.JPEG"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3824.jpeg"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3836.JPEG"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3833.JPEG"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img class="pic" src="/Images/Picture_Page/2026/IMG_3898.JPG" />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3897.jpeg"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
+                <img
+                  class="pic"
+                  src="/Images/Picture_Page/2026/IMG_3896.jpeg"
+                />
+                <div class="text"></div>
+              </div>
+              <div class="mySlides fade">
+                <span class="numHeader"></span>
+                <div class="numbertext">
+                  <span class="numPic"></span>
+                </div>
                 <img class="pic" src="/Images/Picture_Page/IMG_3555.JPEG" />
                 <div class="text"></div>
               </div>
@@ -614,10 +754,10 @@
               for (let i = 0; i <= length; i++) {
                 document.getElementsByClassName("numPic")[i].innerHTML =
                   i + 1 + " " + "/" + " " + length;
-                // Set headers for 2025 and Previous Years
-                if (i < 5) {
+                // Set headers for 2026 and Previous Years
+                if (i < 13) {
                   document.getElementsByClassName("numHeader")[i].innerHTML =
-                    "<h3>2025</h3>";
+                    "<h3>2026</h3>";
                 } else {
                   document.getElementsByClassName("numHeader")[i].innerHTML =
                     "<h3>Previous Years</h3>";
@@ -673,51 +813,6 @@
       />
     </div>
     <!--page end-->
-    <script
-      src="https://www.paypal.com/sdk/js?client-id=ARkvJhqCMLlAoYsQPmZ4HsEZgeGmX3AfAoTDE9T2xQOpRtGuhbb2pVp-qBrEmWm0DQ0-JcKu2VDdelq1&enable-funding=venmo&currency=USD"
-      data-sdk-integration-source="button-factory"
-    ></script>
-    <script>
-      function initPayPalButton() {
-        paypal
-          .Buttons({
-            style: {
-              shape: "rect",
-              color: "black",
-              layout: "vertical",
-              label: "pay",
-            },
-
-            createOrder: function (data, actions) {
-              return actions.order.create({
-                purchase_units: [
-                  {
-                    description:
-                      "Monday, September 27, 2021\n4 person scramble - \n includes entry fee, cart, prizes, lunch and social.",
-                    amount: { currency_code: "USD", value: 380 },
-                  },
-                ],
-              });
-            },
-
-            onApprove: function (data, actions) {
-              return actions.order.capture().then(function (details) {
-                alert(
-                  details.payer.name.given_name +
-                    "You have successfully paid for the event!" +
-                    "If you have not already filled out the form, please do so.",
-                );
-              });
-            },
-
-            onError: function (err) {
-              console.log(err);
-            },
-          })
-          .render("#paypal-button-container");
-      }
-      initPayPalButton();
-    </script>
     <script>
       fetch("footer.html")
         .then((response) => response.text())
