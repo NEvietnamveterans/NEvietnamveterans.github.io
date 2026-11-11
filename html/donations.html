@@ -284,100 +284,7 @@
 
             <br />
             <!-- start sponsor01 -->
-            <div id="table">
-              <div id="sponsor01">
-                <h4>Vietnam Veterans of America Chapter 279 - Sponsors</h4>
-
-                <h5>
-                  Please click the sponsor logo to visit our sponsor's website.
-                </h5>
-                <div class="w3-row">
-                  <div class="row">
-                    <div class="w3-third">
-                      <a href="http://www.siddillon.com/" target="_blank"
-                        ><img
-                          src="../Images/Ads/Sid Dillon.PNG"
-                          id="sponsorimg"
-                      /></a>
-                    </div>
-                    <div class="w3-third">
-                      <a
-                        href="http://www.reichmuthfuneralhomes.com/"
-                        target="_blank"
-                        ><img src="../Images/Ads/Reichmuth.PNG" id="sponsorimg"
-                      /></a>
-                    </div>
-                    <div class="w3-third">
-                      <a
-                        href="https://klostermaninsuranceagencyelkhorn.com/"
-                        target="_blank"
-                        ><img
-                          src="../Images/Ads/Klosterman.png"
-                          id="sponsorimg"
-                      /></a>
-                    </div>
-                    <div class="w3-third">
-                      <a href="http://www.dillonharley.com/" target="_blank"
-                        ><img
-                          src="../Images/Ads/Dillon Brothers.PNG"
-                          id="sponsorimg"
-                      /></a>
-                    </div>
-                    <div class="w3-third">
-                      <a
-                        href="https://www.raymondjames.com/gustafsonwc/"
-                        target="_blank"
-                        ><img
-                          src="../Images/Ads/raymond_james.png"
-                          id="sponsorimg"
-                      /></a>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="w3-third">
-                      <a href="https://www.windowworld.com/" target="_blank"
-                        ><img
-                          src="../Images/Ads/window_world.png"
-                          id="sponsorimg"
-                      /></a>
-                    </div>
-                    <div class="w3-third">
-                      <a href="http://www.pacificsprings.com/" target="_blank"
-                        ><img
-                          src="../Images/Ads/Pacific Springs.PNG"
-                          id="sponsorimg"
-                      /></a>
-                    </div>
-                    <div class="w3-third">
-                      <a
-                        href="http://www.victoryveteranshousing.com/"
-                        target="_blank"
-                        ><img src="../Images/Ads/Victory.PNG" id="sponsorimg"
-                      /></a>
-                    </div>
-                    <div class="w3-third">
-                      <a
-                        href="https://www.brookestonemeadows.com/"
-                        target="_blank"
-                        ><img
-                          src="../Images/Ads/Brookstone.png"
-                          id="sponsorimg"
-                      /></a>
-                    </div>
-                    <div class="w3-third">
-                      <a href="https://corebank.com/" target="_blank"
-                        ><img
-                          src="../Images/Ads/CoreBank-Logo-WEB.jpg"
-                          id="sponsorimg"
-                      /></a>
-                    </div>
-                  </div>
-                </div>
-
-                <br />
-                <br />
-                <br />
-              </div>
+            <div id="footer-placeholder"></div>
               <!-- end sponsor01 -->
             </div>
           </div>
@@ -389,5 +296,12 @@
       <!-- Page content end -->
     </div>
     <!--page end-->
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
   </body>
 </html>
