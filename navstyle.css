@@ -656,18 +656,18 @@ button:-moz-focusring,
   margin: auto;
 }
 .patchWords {
-  font: bold 2.2vw verdana !important;
+  font: bold 2rem verdana !important;
   padding: 0.75rem 0.6rem 0rem 0rem;
   text-align: CENTER !important;
-  line-height: 3.5vw !important;
+  line-height: 2.75rem !important;
   color: black;
 }
-.patchWordsSmall {
+/* .patchWordsSmall {
   font: bold 1.85vw verdana !important;
   padding: 0.75rem 0.6rem 0rem 0rem;
   text-align: CENTER !important;
   color: black;
-}
+} */
 .columnPatch {
   width: 50%;
 }
@@ -988,7 +988,7 @@ p {
   }
 }
 
-@media (min-width: 1400px) {
+/* @media (min-width: 1400px) {
   .patchWords {
     font-size: 1.7vw !important;
     line-height: 3rem !important;
@@ -996,7 +996,7 @@ p {
   .patchWordsSmall {
     font-size: 1vw !important;
   }
-}
+} */
 
 @media (min-width: 1260px) {
   .sponsrow {
@@ -1562,7 +1562,7 @@ p {
   .w3-container {
     /* padding-left: 10% !important; */
   }
-  .patchWords {
+  /* .patchWords {
     font: bold 4.5vw verdana !important;
     text-align: CENTER !important;
     line-height: 1.5rem !important;
@@ -1574,7 +1574,7 @@ p {
     text-align: CENTER !important;
     color: black;
     padding-bottom: 15%;
-  }
+  } */
   .columnPatch {
     width: auto;
     margin-bottom: -1.2rem !important;
